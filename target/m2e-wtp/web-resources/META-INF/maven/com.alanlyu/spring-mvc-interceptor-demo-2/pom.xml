@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.alanlyu</groupId>
-	<artifactId>spring-mvc-interceptor-demo-1</artifactId>
+	<artifactId>spring-mvc-interceptor-demo-2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
@@ -50,6 +50,17 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>4.3.9.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.25</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
-	<name>spring-mvc-interceptor-demo-1</name>
+	<name>spring-mvc-interceptor-demo-2</name>
 </project>
